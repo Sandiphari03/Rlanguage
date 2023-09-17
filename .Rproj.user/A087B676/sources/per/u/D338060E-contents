@@ -1,0 +1,103 @@
+# R OPERATOR - ARTHIMETIC OPERATOR EXAMPLE OF VECTOR:
+
+a <-c(8,9,6)
+b<- c(2,4,5)
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%%b)
+print(a^b)
+
+#LOGICAL 
+
+a <- c(7.5,3,5)
+b <- c(2,7,0)
+
+print(a<b)
+print(a>b)
+print(a==b)
+print(a<=b)
+print(a>=b)
+print(a!=b)
+
+
+#LOGICAL OPERATOR
+
+a <- c(TRUE,TRUE,FALSE ,FALSE)
+b <- c(TRUE ,FALSE,TRUE, FALSE)
+
+print(a&b)
+print(a|b)
+print(!a)
+print(a&&b)
+print(a||b)
+
+
+#MISC OPERATOR
+
+a= 23:31
+print(a)
+
+a= c(25,27,26)
+b= 27
+print (b %in% a)
+
+M = matrix(c(1,2,3,4),2,2,TRUE)
+print (M %% t(M))
+
+
+x <- 30
+if(is.integer(x)){
+  print("x")
+}
+else{
+  print("t")
+  
+  
+x <-c("what","is","truth")
+
+if("Truth" %in% x){
+  print ("truth is found")
+}else{
+  print("truth is not found")
+}
+
+
+x <- switch(
+  5,
+  "first",
+  "second",
+  "third",
+  "fourth"
+)
+print(x)
+
+
+
+
+
+
+length =22
+if(length<=22)
+  print("print the length")
+}else{
+  print("taking user from input for breadth")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

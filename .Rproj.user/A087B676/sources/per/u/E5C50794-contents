@@ -1,0 +1,6 @@
+getwd()
+usedcars <- read.csv("usedcars.csv",
+                     stringsAsFactors = FALSE)
+str(usedcars)
+summary(usedcars$year)
+summary(usedcars[c("price", "mileage")])
